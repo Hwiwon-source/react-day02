@@ -5,9 +5,9 @@ function PlayerBox(props) {
   const winCheck = () => {
     if (props.result !== "" && props.result === "Draw!") {
       return "draw";
-    } else if (props.result != "" && props.result === "Win!") {
+    } else if (props.result !== "" && props.result === "Win!") {
       return "win";
-    } else if (props.result != "" && props.result === "Lose :<") {
+    } else if (props.result !== "" && props.result === "Lose :<") {
       return "lose";
     }
   };

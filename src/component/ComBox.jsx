@@ -18,9 +18,9 @@ function ComBox(props) {
   const winCheck = () => {
     if (comResult !== "" && comResult === "Draw!") {
       return "draw";
-    } else if (comResult != "" && comResult === "Win!") {
+    } else if (comResult !== "" && comResult === "Win!") {
       return "win";
-    } else if (comResult != "" && comResult === "Lose :<") {
+    } else if (comResult !== "" && comResult === "Lose :<") {
       return "lose";
     }
   };
