@@ -9,8 +9,8 @@
 
 .RockScissorsPaperGame {
   font-family: 'Times New Roman', Times, serif;
-  width: 70%;
-  max-width: 1280px;
+  width: 90%;
+  max-width: 1120px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
 }
 
@@ -43,7 +43,7 @@
 .win {
   border: 5px solid blue;
   color: blue;
-  transform: translateY(-20px) scale(1.1);
+  transform: translateY(-20px) scale(1.05);
   z-index: 1;
 }
 
