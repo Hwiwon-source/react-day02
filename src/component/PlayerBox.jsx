@@ -9,7 +9,7 @@ function PlayerBox(props) {
       <h2>{props.name}</h2>
       <div className='img-wrap'>
         {/** 첫 UI 렌더링 시, null이 리턴될 경우 가드 역할 */}
-        <img src={props.item ? props.item.img : "https://github.com/Hwiwon-source/react-day02/raw/main/public/default_img"} alt="playerChoice" />
+        <img src={props.item ? props.item.img : "https://github.com/Hwiwon-source/react-day02/raw/main/public/defuat_img.png"} alt="playerChoice" />
       </div>
     </div>
   )
