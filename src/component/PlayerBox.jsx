@@ -2,7 +2,7 @@ import React from 'react'
 import "./PlayerBox.css"
 
 function PlayerBox(props) {
-  console.log(props)
+  // console.log(props)
 
   return (
     <div className='PlayerBox'>
