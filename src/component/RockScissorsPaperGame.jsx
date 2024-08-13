@@ -26,6 +26,7 @@ function RockScissorsPaperGame({ playerName }) {
   return (
     <div className='RockScissorsPaperGame'>
       <div className='play-area'>
+        {/* PlayerBox에게 넘겨줄 item이 변화하며 UI가 리렌더링 되어야 한다. */}
         <PlayerBox name={playerName} item={playerSelect} />
         <ComBox />
       </div>
